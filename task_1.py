@@ -1,0 +1,5 @@
+#-*- coding: cp1251 -*-   # без этой строки не хочет работать с кириллицей
+username = input('¬ведите им€: ')
+userpassword = input('¬ведите ваш пароль: ')
+userage = input('¬ведите ваш возраст: ')
+print(f'¬аше им€ - "{username}", пароль - "{userpassword}", возраст - "{userage}"')
