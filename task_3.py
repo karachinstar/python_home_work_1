@@ -1,0 +1,4 @@
+#-*- coding: cp1251 -*-   # без этой строки не хочет работать с кириллицей, можете объ€снить почему?
+usernumber = str(input('¬ведите положительно число n: '))
+print(f'{(usernumber)} + {usernumber + usernumber} + {usernumber + usernumber + usernumber} '
+      f'= {int(usernumber) + int(str(usernumber + usernumber)) + int(str(usernumber + usernumber + usernumber)) }')
