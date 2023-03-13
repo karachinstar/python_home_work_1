@@ -1,4 +1,4 @@
-#-*- coding: cp1251 -*-   # без этой строки не хочет работать с кириллицей, можете объяснить почему?
-usernumber = str(input('Введите положительно число n: '))
-print(f'{(usernumber)} + {usernumber + usernumber} + {usernumber + usernumber + usernumber} '
-      f'= {int(usernumber) + int(str(usernumber + usernumber)) + int(str(usernumber + usernumber + usernumber)) }')
+usernumber = str(input('Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ n: '))
+print(f'{usernumber} + {usernumber + usernumber} + '
+      f'{usernumber + usernumber  + usernumber} = '
+      f'{int(usernumber) + int(usernumber + usernumber) + int(usernumber + usernumber + usernumber) }')
